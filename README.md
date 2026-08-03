@@ -6,6 +6,14 @@ The backend is written in **Python (FastAPI)** with **SQLite** (swappable to
 Postgres) and real-time sync over **WebSockets**. It replaces what used to
 be a Firebase (Firestore + Auth) backend.
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Dashboard](docs/screenshots/dashboard.png) Real-time dashboard & activity feed | ![Orders](docs/screenshots/orders.png) Orders — one click generates boxes + stickers |
+| ![Stickers](docs/screenshots/stickers.png) Auto-generated barcode stickers per box | ![Sales & Revenue](docs/screenshots/sales-revenue.png) Sales & revenue tracking |
+| ![Analytics](docs/screenshots/analytics.png) Analytics dashboard | ![Sign up](docs/screenshots/auth.png) Auth & role setup |
+
 ## Project structure
 
 ```
