@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Env / secrets
+.env
+backend/.env
+
+# SQLite DB (created on first run)
+boxtrack.db
+backend/boxtrack.db
+
+# OS junk
+.DS_Store
+Thumbs.db
