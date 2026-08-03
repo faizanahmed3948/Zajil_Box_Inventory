@@ -1,0 +1,9 @@
+# Exclude large frontend/PWA files from GitHub's language stats
+frontend/index.html linguist-vendored
+frontend/api-client.js linguist-vendored
+frontend/service-worker.js linguist-vendored
+frontend/manifest.webmanifest linguist-vendored
+docs/* linguist-documentation
+
+# Make sure the Python backend is always counted as code
+backend/*.py linguist-detectable=true
